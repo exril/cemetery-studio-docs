@@ -1,91 +1,61 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.svg",
+  "name": "Cemetery Studio",
+  "favicon": "/graveyard.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#7289DA",
+    "light": "#7289DA",
+    "dark": "#7289DA",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#7289DA",
+      "to": "#7289DA"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "support@cemetery.studio"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://dashboard.qwenzie.xyz"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
     {
       "name": "Community",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://discord.gg/ghouls"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "About Cemetery Studio",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
+        "qwenzie",
+        "grave"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Team",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "team/Development",
+        "team/Management"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Legal",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "legal/privacy-policy",
+        "legal/terms-of-service",
+        "legal/legal"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/cemetery-studio",
+    "github": "https://github.com/cemetery-studio",
+    "linkedin": "https://linkedin.com/company/cemetery-studio"
   }
 }
